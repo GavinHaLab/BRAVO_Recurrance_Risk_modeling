@@ -373,7 +373,7 @@ Variance filtering was performed before supervised testing using a top-fraction-
 ```text
 Variance method: top fraction by group
 Top variance fraction retained: 0.40
-Minimum non-missing samples: 10
+Minimum non-missing samples: 5
 ```
 
 
@@ -383,7 +383,7 @@ A label-correlation prefilter was applied before supervised testing.
 
 ```text
 Correlation prefilter: enabled
-Minimum absolute feature-label correlation: 0.15
+Minimum absolute feature-label correlation: 0.009
 ```
 
 After supervised feature selection, redundancy pruning was performed using feature-feature correlation.
@@ -438,7 +438,7 @@ A label-correlation prefilter was applied before supervised testing.
 
 ```text
 Correlation prefilter: enabled
-Minimum absolute feature-label correlation: 0.15
+Minimum absolute feature-label correlation: 0.009
 ```
 
 After supervised feature selection, redundancy pruning was performed using feature-feature correlation.
@@ -483,7 +483,7 @@ Variance filtering was performed before supervised testing using a top-fraction-
 ```text
 Variance method: top fraction by group
 Top variance fraction retained: 0.40
-Minimum non-missing samples: 10
+Minimum non-missing samples: 5
 ```
 
 ### Correlation Prefiltering and Redundancy Pruning
@@ -492,7 +492,7 @@ A label-correlation prefilter was applied before supervised testing.
 
 ```text
 Correlation prefilter: enabled
-Minimum absolute feature-label correlation: 0.15
+Minimum absolute feature-label correlation: 0.009
 ```
 
 After supervised feature selection, redundancy pruning was performed using feature-feature correlation.
